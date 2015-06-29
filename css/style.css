@@ -2,6 +2,9 @@
     text-decoration: none;
     list-style: none;
 }
+a {
+    color: #000;
+}
 ul {
     margin: 0;
     padding: 0;
@@ -23,7 +26,7 @@ body {
     margin: 0 auto;
     text-align: center;
 }
-.active {
+.highLight,#active {
     color: #01A5CA;
 }
 /*head*/
@@ -91,18 +94,17 @@ header>nav>ul>li {
     margin: 0 20px;
 }
 .slider h1 {
-	margin-bottom:20px; 
+    margin-bottom: 20px;
     font-size: 50px;
     line-height: 50px;
- 
 }
 .slider p {
     color: #ABABAB;
     line-height: 30px;
 }
 .sliderButton {
-	display: inline-block;
-	margin:10px 0;
+    display: inline-block;
+    margin: 10px 0;
     font-size: 16px;
     font-weight: bold;
     padding: 15px 30px;
@@ -123,7 +125,6 @@ header>nav>ul>li {
 /*content*/
 
 .content {
-   
     position: relative;
     text-align: left;
     background-color: #fff;
@@ -134,8 +135,8 @@ header>nav>ul>li {
     margin-right: 280px;
     clear: left;
     line-height: 25px;
- font-family: Arial;
- font-size: 15px;
+    font-family: Arial;
+    font-size: 15px;
 }
 .content article img {
     margin-bottom: 30px;
@@ -147,11 +148,11 @@ header>nav>ul>li {
     width: 220px;
     float: right;
 }
-.content ul li{
-	font-size: 16px;
-	padding-left: 10px;
-	line-height: 30px;
-	background: url("../images/icon_03.png")no-repeat 0px;
+.content ul li {
+    font-size: 16px;
+    padding-left: 10px;
+    line-height: 30px;
+    background: url("../images/icon_03.png")no-repeat 0px;
 }
 .content aside input {
     padding: 10px;
@@ -173,5 +174,5 @@ header>nav>ul>li {
 footer {
     margin: 35px 0;
     line-height: 30px;
-     font-family: Arial
+    font-family: Arial
 }
